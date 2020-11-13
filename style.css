@@ -9,26 +9,31 @@
 }
 
 body {
-  height: 100vh;
-  color: white;
-  /*background-image: url(images/plano-de-fundo-preto28.jpg);
-  background-repeat: no-repeat; */
-  background-color: #0f0f0f;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(22, 22, 22, 0.979);
 
+  /*background-color: #0f0f0f; */
+  background-image: url(images/fundo4.jpg);
+  background-repeat: no-repeat;
+  
   
 }
 
-/* Header barra */
+/* HEADER BARRA */
 .header {
   position: fixed;
   width: 100%;
   height: 70px;
+  
+  background-color:rgb(198, 12, 49);
+ 
+  /*background-color: #ca0b0b; 
+    border: solid #dd1d1d 0.2px; */
   border-radius: 4px;
-  border: solid #dd1d1d 0.2px;
-  background-color: #ca0b0b;
 }
 
-/* Menu do Header */
+/* MENU DO HEADER */
 .lol img {
   float: left;
 
@@ -57,55 +62,69 @@ body {
   font-size: 17px;
   font-weight: bold;
   color: rgba(250, 246, 246, 0.986);
-  text-decoration: none; /* remover listra*/
+  text-decoration: none; /* remover listra debaixo*/
 }
 
-/* transition */
+/*transition*/
 #menu ul li a:hover {
-  background-color: rgba(145, 10, 10, 0.993);
+  background-color:rgba(145, 10, 10, 0.993);
   transition: 300ms;
   border-radius: 8px;
 }
 
-/* conteúdo inicial */
+/* CONTEUDO INICIAL */
 .main_page {
   display: block;
-  font-size: 36px;
-  font-family: "Roboto", sans-serif;
-}
-
-/* foto capa*/
-.banner img {
-  height: 450px; /* o ideal é 300*/
-  width: 1024px;
-  display: block;
-
-  margin-top: -50px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-}
-.main_page p {
   text-align: center;
-  font-size: 32px;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+/* logo prokrplays*/
+.main_page img {
+  width: 500px;
+  height: 500px;
+  /*padding: -300px; */
+  margin-top: -70px; 
+}
+/* descrição site*/
+.main_page p {
+  font-size: 34px;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  padding: 100px;
-  color: rgba(196, 189, 189, 0.986);
+  font-weight: 800;
+  padding: 80px;
+  margin-top: -250px;
+
+  color: rgba(235, 215, 215, 0.986);
   font-style: oblique;
 }
 
+/* banner coreanos */
+.banner img {
+  height: 550px;
+  width: 1024px;
+  display: block;
+
+  margin-top: -75px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  /* background-color: #ca0b0b;  ALTERAR FUNDO BANNER */
+}
+
+/* CAMPO PESQUISA */
 #busca {
   background-color: none;
   border: solid 0.5px #252424;
   border-radius: 6px;
   width: 50%;
-  height: 32px;
+  height: 36px;
   display: block;
- 
+
   margin-top: 50px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 
 #txtbusca {
@@ -124,11 +143,11 @@ body {
 #btnbusca {
   border: none;
   float: right;
-  height: 30px;
+  height: 35px;
   border-radius: 0 5px 5px 0;
   width: 71px;
   font-weight: bold;
-  background: #ca0b0b;
+  background:  rgb(198, 12, 49);
   cursor: pointer;
   color: white;
   outline: 0;
@@ -140,68 +159,55 @@ body {
   border-radius: 0 5px 5px 0;
 }
 
+/* THUMBS-VÍDEOS */
 .thumbnail {
   align-items: center;
   display: inline-block;
   margin-top: 50px;
-  
-  
-
 }
 
-.thumbnail img{
-  border-radius: 30px;
+.thumbnail img {
+  border-radius: 28px;
   width: 300px; /*320*/
   height: 180px; /*180 original*/
   padding: 14px;
   left: 50%;
   right: 50%;
-  margin-left:15px;
+  margin-left: 15px;
   margin-right: 10px;
-  margin-top:10px;   
+  margin-top: 10px;
   cursor: pointer;
-  
 }
 
-footer{
+/* AVANÇO PÁGINAS */
+footer {
   text-decoration: none;
   list-style: none;
-  padding-left: .75rem;
-  padding-right: .75rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   margin: 0;
   display: flex;
   justify-content: center;
   color: white;
-  
 }
 
-footer li{
-
+footer li {
+  margin-top: 40px;
 }
-  
-footer li a{
+
+footer li a {
   cursor: pointer;
-  color: #252424;
-  font-size: 24px;
+  color:rgba(75, 72, 72, 0.993);
+  font-size: 22px;
   font-family: "Roboto", sans-serif;
   padding: 10px;
   text-decoration: none;
-  
-
-/*dotted: borda pontilhada.
-dashed: borda tracejada.
-solid: borda contínua.
-double: borda dupla.
-groove: borda entalhada.
-ridge: borda em ressalto. */
-  
 }
 
-footer li a:hover{
-  background-color: #ca0b0b;
+footer li a:hover {
+  background-color:  rgba(145, 10, 10, 0.993);
   transition: 300ms;
-  
-  
 }
+
