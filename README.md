@@ -25,4 +25,4 @@ Gostaria de destacar aqui e agradecer imensamente a ajuda que venho recebendo de
 
 
 ***
-<center>Desenvolvido com muito entusiasmo por Monique Melo:computer:</center>
+<center>Desenvolvido com muito entusiasmo por Monique Melo com participação especial de Erick Henrique :computer:</center>
