@@ -11,9 +11,11 @@
 body {
   height: 100vh;
   color: white;
-  background-image: url(images/fundo.jpg);
+  /*background-image: url(images/plano-de-fundo-preto28.jpg);
+  background-repeat: no-repeat; */
+  background-color: #0f0f0f;
 
-  /*background-color: #0f0f0f;*/
+  
 }
 
 /* Header barra */
@@ -99,13 +101,11 @@ body {
   border-radius: 6px;
   width: 50%;
   height: 32px;
-  margin-top: 100px;
   display: block;
-
-  /* será ajustado*/
+ 
   margin-top: 50px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; 
 }
 
 #txtbusca {
@@ -138,4 +138,70 @@ body {
   background-color: rgba(145, 10, 10, 0.993);
   transition: 300ms;
   border-radius: 0 5px 5px 0;
+}
+
+.thumbnail {
+  align-items: center;
+  display: inline-block;
+  margin-top: 50px;
+  
+  
+
+}
+
+.thumbnail img{
+  border-radius: 30px;
+  width: 300px; /*320*/
+  height: 180px; /*180 original*/
+  padding: 14px;
+  left: 50%;
+  right: 50%;
+  margin-left:15px;
+  margin-right: 10px;
+  margin-top:10px;   
+  cursor: pointer;
+  
+}
+
+footer{
+  text-decoration: none;
+  list-style: none;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  
+}
+
+footer li{
+
+}
+  
+footer li a{
+  cursor: pointer;
+  color: #252424;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  text-decoration: none;
+  
+
+/*dotted: borda pontilhada.
+dashed: borda tracejada.
+solid: borda contínua.
+double: borda dupla.
+groove: borda entalhada.
+ridge: borda em ressalto. */
+  
+}
+
+footer li a:hover{
+  background-color: #ca0b0b;
+  transition: 300ms;
+  
+  
 }
